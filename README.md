@@ -6,3 +6,6 @@ Merged and cleaned multi-table e-commerce data using Pandas, reducing missing va
 
 This project uses the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download), available on Kaggle.  
 It includes information on orders, products, sellers, and customer reviews from a large Brazilian e-commerce platform.
+
+Used merge, fillna, drop_duplicates, to_datetime, astype, and feature engineering.
+Note error handling (e.g., errors='coerce' for dates) to show robustness.
